@@ -1,0 +1,63 @@
+﻿@model FinalProject.Models.HomeViewModel
+
+<html>
+
+    <head>
+        <link href="~/Styles/Home.css" rel="stylesheet"/>
+        <title>Final Project</title>
+    </head>
+
+    <body>
+        <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+        <script src="~/Scripts/jquery-ui.min.js"></script>
+        <script src="~/Scripts/Home.js"></script>
+        
+        <div class="home">
+            <header>
+                <h1>
+                    Welcome to Cuyahoga Community College Student Services Online
+                </h1>
+            </header>
+
+            <div class="pHeader">
+                <p>
+                    Cuyahoga Community College recognizes students' rights to access personal and academic records in accordance
+                    with the Family Educational Rights and Privacy Act of 1974 (FERPA) as amended by Public Law 93-568.
+                </p>
+            </div>
+
+            <div class="topMain">
+                <div class="leftMain">
+                    <p>
+                        Already have an account with us? Returning users may log in by entering their site username and password.
+                    </p>
+                </div>
+                <div class="rightMain">
+                        <div class="username">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="Username" placeholder="Username">
+                        </div>
+                        <div class="password">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="Password" placeholder="Password">
+                        </div>
+                    <button class="rightMainButton">Log In</button>
+                </div>
+                <div class="separator"></div>
+                <div class="bottomMain"></div>
+            </div>
+            
+
+            
+
+            <footer>
+                Cuyahoga Community College
+                <br>
+                700 Carnegie Avenue, Cleveland, Ohio 44115
+            </footer>
+
+        </div>
+
+    </body>
+
+</html>

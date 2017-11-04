@@ -1,0 +1,144 @@
+﻿.leftMain {
+    display: inline-block;
+    width: 175px;
+    height: 100px;
+    margin: 10px;
+    background: linear-gradient(#019198, white);
+    border: 2px solid #019198;
+    border-radius: 25px;
+    padding: 5px;
+    color: black;
+}
+
+.rightMain {
+    margin-left: 25px;
+    height: 130px;
+    width: 250px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.username, .password {
+    display: inline-block;
+}
+
+.username label, .password label {
+    display: inline-block;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.rightMainButton {
+    background-color: #2DCCD3;
+    border: solid;
+    border-color: #019198;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: crosshair;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+input[type=text], select, input[type=password], select {
+    width: 75%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+    input[type=text]:focus, input[type=password]:focus {
+        border: 3px solid #019198;
+    }
+
+.separator {
+    border-top-style: double;
+    border-top-color: #019198;
+    border-top-width: 5px;
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        width: 520px;
+        font-family: Calibri;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .topMain {
+        border-radius: 25px;
+        border: 2px solid #019198;
+        padding: 20px;
+        width: 520px;
+        height: 600px;
+    }
+
+    header {
+        text-align: left;
+        font-family: Cambria;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .pHeader {
+        text-align: left;
+        font-family: Calibri;
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    footer {
+        text-align: left;
+        font-family: Calibri;
+        font-size: 12px;
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        width: 300px;
+        font-family: Calibri;
+        font-size: 13px;
+        font-weight: normal;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .topMain {
+        border-radius: 25px;
+        border: 2px solid #019198;
+        padding: 20px;
+        width: 250px;
+        height: 400px;
+    }
+
+    header {
+        text-align: center;
+        font-family: Cambria;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .pHeader {
+        text-align: center;
+        font-family: Calibri;
+        font-size: 13px;
+        font-style: italic;
+    }
+
+    footer {
+        text-align: center;
+        font-family: Calibri;
+        font-size: 13px;
+        font-style: italic;
+    }
+    
+    .leftMain {
+        display: none;
+    }
+}
