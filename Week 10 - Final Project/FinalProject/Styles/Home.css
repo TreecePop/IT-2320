@@ -1,7 +1,7 @@
 ﻿.leftMain {
     display: inline-block;
     width: 175px;
-    height: 100px;
+
     margin: 10px;
     background: linear-gradient(#019198, white);
     border: 2px solid #019198;
@@ -18,14 +18,15 @@
     margin-bottom: 15px;
 }
 
-.username, .password {
+.Username, .Password, .EmailAdd, .EmailCon {
     display: inline-block;
 }
 
-.username label, .password label {
-    display: inline-block;
-    text-align: right;
-    padding-top: 10px;
+.Username label, .Password label, .EmailAdd label, .EmailCon label {
+        display: inline-block;
+        text-align: right;
+        padding-top: 10px;
+
 }
 
 .rightMainButton {
@@ -41,7 +42,20 @@
     border-radius: 12px;
 }
 
-input[type=text], select, input[type=password], select {
+.bottomRightMainButton {
+    background-color: #2DCCD3;
+    border: solid;
+    border-color: #019198;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: crosshair;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+input {
     width: 75%;
     padding: 5px 5px;
     margin: 5px 0;
@@ -51,7 +65,7 @@ input[type=text], select, input[type=password], select {
     box-sizing: border-box;
 }
 
-    input[type=text]:focus, input[type=password]:focus {
+    input:focus {
         border: 3px solid #019198;
     }
 

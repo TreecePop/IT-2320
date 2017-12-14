@@ -26,37 +26,69 @@
                 </p>
             </div>
 
-            <div class="topMain">
-                <div class="leftMain">
-                    <p>
-                        Already have an account with us? Returning users may log in by entering their site username and password.
-                    </p>
-                </div>
-                <div class="rightMain">
-                        <div class="username">
-                            <label for="username">Username</label>
-                            <input type="text" id="username" name="Username" placeholder="Username">
+            <div class="login">
+                <div class="topMain">
+                    <div class="leftMain">
+                        <p>
+                            Already have an account with us? Returning users may log in by entering their site username and password.
+                        </p>
+                    </div>
+                    <div class="rightMain">
+                        <form method="post" action="/">
+                            <div class="Username">
+                                <label for="Username">Username</label>
+                                <input type="text" id="Username" name="Username" placeholder="Username">
+                            </div>
+                            <div class="Password">
+                                <label for="Password">Password</label>
+                                <input type="password" id="Password" name="Password" placeholder="Password">
+                            </div>
+                            <button class="rightMainButton">Log In</button>
+                            </form>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="bottomMain">
+                        <div class="leftMain">
+                            <p>
+                                Don't have any account? Register today by filling out the information to the right.
+                            </p>
                         </div>
-                        <div class="password">
-                            <label for="password">Password</label>
-                            <input type="password" id="password" name="Password" placeholder="Password">
+                        <div class="rightMain">
+                            <form method="post" action="/">
+                                <div class="Username">
+                                    <label for="Username">Username</label>
+                                    <input type="text" id="username2" name="Username" placeholder="Username">
+                                </div>
+                                <div class="Password">
+                                    <label for="Password">Password</label>
+                                    <input type="password" id="password2" name="Password" placeholder="Password">
+                                </div>
+                                <div class="EmailAdd">
+                                    <label for="EmailAdd">Email</label>
+                                    <input type="email" id="EmailAdd" name="EmailAdd" placeholder="Email">
+                                </div>
+                                <div class="EmailCon">
+                                    <label for="EmailCon">Confirm Email</label>
+                                    <input type="email" id="EmailCon" name="EmailCon" placeholder="Confirm Email">
+                                </div>
+                                <button class="bottomRightMainButton">Sign Up</button>
+                            </form>
                         </div>
-                    <button class="rightMainButton">Log In</button>
+
+                    </div>
                 </div>
-                <div class="separator"></div>
-                <div class="bottomMain"></div>
             </div>
-            
 
-            
 
-            <footer>
-                Cuyahoga Community College
-                <br>
-                700 Carnegie Avenue, Cleveland, Ohio 44115
-            </footer>
 
-        </div>
+
+                <footer>
+                    Cuyahoga Community College
+                    <br>
+                    700 Carnegie Avenue, Cleveland, Ohio 44115
+                </footer>
+
+            </div>
 
     </body>
 
